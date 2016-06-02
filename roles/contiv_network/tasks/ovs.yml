@@ -28,11 +28,11 @@
     url: "{{ item.url }}"
   with_items:
     - {
-        url: "https://cisco.box.com/shared/static/tptwt7nzgd2z102341m06im96zjdf60j.deb",
+        url: "https://cisco.box.com/shared/static/v1dvgoboo5zgqrtn6tu27vxeqtdo2bdl.deb",
         dest: /tmp/ovs-common.deb
       }
     - {
-        url: "https://cisco.box.com/shared/static/ckz4vhf8axg35pz7ozepjb3uhttf86ty.deb",
+        url: "https://cisco.box.com/shared/static/ymbuwvt2qprs4tquextw75b82hyaxwon.deb",
         dest: /tmp/ovs-switch.deb
       }
   when: ansible_os_family == "Debian"
