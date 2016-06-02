@@ -28,7 +28,7 @@
     url: "{{ item.url }}"
   with_items:
     - {
-        url: "https://cisco.box.com/shared/static/ndwrz43vpx6wh5pw134gevjbs6e5fht4.deb",
+        url: "https://cisco.box.com/shared/static/ndwrz43vpx6wh5pwl34qevjbs6e5fht4.deb",
         dest: /tmp/ovs-common.deb
       }
     - {
