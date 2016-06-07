@@ -18,7 +18,7 @@ netplugin_rule_comment: "contiv network traffic"
 
 contiv_network_version: "netpluginSR-v0.1-06-07-2016"
 contiv_network_tar_file: "{{ contiv_network_version }}.tar.bz2"
-contiv_network_src_file: "https://github.com/Tlaskey/netplugin/releases/download/v0.1-06-07-2016/{{ contiv_network_tar_file }}"
+contiv_network_src_file: "https://github.com/Tlaskey/netplugin/releases/download/v0.1-06-07-2016/netpluginSR-v0.1-06-07-2016.tar.bz2"
 contiv_network_dest_file: "/tmp/{{ contiv_network_tar_file }}"
 
 contivctl_version_no_v: "0.1-05-26-2016.22-31-22.UTC"
